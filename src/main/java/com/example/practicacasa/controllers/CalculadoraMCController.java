@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-//@RequestMapping("/house")
+@RequestMapping("/house")
 public class CalculadoraMCController {
 
     @PostMapping("/properties")
